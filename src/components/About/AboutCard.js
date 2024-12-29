@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Riya Shinde </span>
+            from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently pursuing my degree in B.E in Computer Engineering.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            This is my digital space where I showcase my journey, skills, and projects that reflect my love for coding and problem-solving.
+
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Here, you'll find:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight />💻Projects that I’ve worked on, blending creativity and technology
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight />📚 Insights into my academic background and technical expertise
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight />🎯 My experiences and milestones as a developer
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          Feel free to explore, learn more about my work, and get in touch. Let’s create something amazing together! 😊
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Riya</footer>
         </blockquote>
       </Card.Body>
     </Card>

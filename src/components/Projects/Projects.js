@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import toe from "../../Assets/Projects/toe.jpg";
+import todo from "../../Assets/Projects/todo.png"
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -26,9 +25,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with Node.js, Express.js, and Socket.io. Have features which allows user for realtime messaging."
+              ghLink="https://github.com/Riyashinde646/CHAT-APP"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,10 +35,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="BLog Post Web App"
+              description="My personal blog page build with Express.js and Node.js which takes the content from makdown files and renders it using Ejs. Supports creating profile, writing comments and easy to write blogs using markdown."
+              ghLink="https://github.com/Riyashinde646/Blogging-WebApp"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,36 +46,36 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Job Portal Application"
+              description="Job Portal Application: Built a platform for students to find jobs and recruiters to post openings. Designed with React.js, Tailwind CSS, and Clerk authentication. Designed a feature-rich dashboard for recruiters to manage applications effciently."
+              ghLink="https://github.com/Riyashinde646/Job-portal-app"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={toe}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Tic Tac Toe "
+              description="Designed a visually appealing and interactive two-player Tic Tac Toe game using HTML, CSS, and JavaScript, featuring real-time move tracking and responsive design for seamless gameplay."
+              ghLink="https://github.com/Riyashinde646/Tic-Tac-Toe"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={todo}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="To-DO List"
+              description="Created a user-friendly task management app with functionality to add, edit, and delete tasks, offering a clean interface and responsive design for an intuitive user experience."
+              ghLink="https://github.com/Riyashinde646/to-do-list"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +85,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
